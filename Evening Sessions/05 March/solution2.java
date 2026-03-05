@@ -30,7 +30,7 @@ class solution2 {
             result += total_bill[i];
         }
         
-        System.out.println((int)result);  // Print subtotal as int
+        System.out.println((int)result);  
         
         // Calculate discount
         double to_pay;
@@ -46,11 +46,11 @@ class solution2 {
             to_pay = result;
         }
         
-        // Calculate GST (5% on final amount after discount)
+       
         double GST = 0.05 * to_pay;
         to_pay = to_pay + GST;
         
-        System.out.println((int)Math.round(to_pay));  // Round to nearest rupee
+        System.out.println((int)Math.round(to_pay));  
         
         in.close();
     }
