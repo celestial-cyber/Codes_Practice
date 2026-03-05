@@ -68,8 +68,7 @@ class Program1 {
             if (target < 0 || target > maxFloor) {
                 System.out.println("Floor " + target + " is invalid. Skipped.");
                 continue;
-            }
-
+            
             // already there
             if (currentFloor == target) {
                 System.out.println("Already on floor " + target);
